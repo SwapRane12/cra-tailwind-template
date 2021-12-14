@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from '@testing-library/react'
+import App from './App'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test('renders react tailwind starter', () => {
+  render(<App />)
+  const linkElement = screen.getByText(/React Tailwindcss Starter/i)
+  expect(linkElement).toBeInTheDocument()
+})
