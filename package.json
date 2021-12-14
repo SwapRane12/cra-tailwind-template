@@ -1,8 +1,13 @@
 {
   "name": "cra-template-tailwindcss3-starter",
   "description": "create react app template with pre-configured tailwindcss",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwapRane12/cra-tailwind-template"
+  },
+  "homepage": "https://github.com/SwapRane12/cra-tailwind-template",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -12,30 +17,7 @@
     "react-scripts": "5.0.0-next.60",
     "web-vitals": "^2.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.5",
