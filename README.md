@@ -9,11 +9,11 @@ To use this template within your project, add `--template tailwind-template` whe
 For example:
 
 ```sh
-npx create-react-app my-app --template tailwind-template
+npx create-react-app my-app --template tailwindcss3-starter
 
 # or
 
-yarn create react-app my-app --template tailwind-template
+yarn create react-app my-app --template tailwindcss3-starter
 ```
 
 
