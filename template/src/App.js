@@ -7,7 +7,7 @@ function App() {
         <div>
           <h1 className="text-3xl text-gray-700">React Tailwindcss Starter</h1>
           <div className="mt-8 max-w-screen-sm ">
-            <img className="animate-spin" src={logo} alt="" srcset="" />
+            <img className="animate-spin" src={logo} alt="react logo" />
           </div>
         </div>
       </div>
